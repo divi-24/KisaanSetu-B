@@ -230,7 +230,7 @@ exports.signupController = async (req, res) => {
       .status(201)
       .json({ message: "Please check your email to verify your account" });
   } catch (error) {
-    res.status(500).json({ message: "Error registering user" });
+    res.status(500).json({ message: "Error registering user",error:error.message });
   }
 };
 
