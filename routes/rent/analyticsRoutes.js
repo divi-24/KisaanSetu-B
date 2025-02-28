@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Analytics = require('../../model/rent/Analytics');
+const Analytics = require('../../model/rent/analytics.js');
 const RentProduct = require('../../model/rent/rentProduct');
 const { productPerformance, rentalInsights, rentalStats, topCustomers } = require('../../controllers/rent/AnalyticsController');
 
