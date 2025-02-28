@@ -7,7 +7,6 @@ const userSchema = new mongoose.Schema(
     lastName: { type: String, required: true, minlength: 2 },
     username: {
       type: String,
-      required: true,
       unique: true,
       trim: true,
       minlength: 3,
@@ -20,7 +19,7 @@ const userSchema = new mongoose.Schema(
       match: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, // Regex for email validation
     },
     address: { type: String, maxlength: 100 },
-    password: { type: String, required: true }, // Password field is required
+    password: { type: String }, // Password field is required
     role: {
       type: String,
       enum: ["admin", "farmer", "vendor", "customer"],
