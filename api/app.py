@@ -137,7 +137,7 @@ premade_requests = {
     "What is KisaanSetu?": (
         "KisaanSetu is a cutting-edge platform that uses artificial intelligence to improve farming practices. "
         "It helps farmers make better decisions by providing insights based on data, ultimately leading to more efficient and productive agriculture. "
-        "To learn more about us, feel free to visit our <a href='https://agro-tech-ai.vercel.app/aboutus' style='color: blue; text-decoration: underline;'>About Us page</a>."
+        "To learn more about us, feel free to visit our <a href='https://kisaan-setu-f.vercel.app/aboutus' style='color: blue; text-decoration: underline;'>About Us page</a>."
     ),
     "How does the equipment rental platform work?": (
         "Our equipment rental platform lets farmers easily rent advanced farming equipment when they need it. "
@@ -148,7 +148,7 @@ premade_requests = {
         "These modules cover everything from basic operations to advanced features, ensuring that you feel confident in using our tools."
     ),
     "How do I get started with KisaanSetu?": (
-        "To get started, go to the <a href='https://agro-tech-ai.vercel.app/login' style='color: blue; text-decoration: underline;'>Login</a> in the navigation bar. "
+        "To get started, go to the <a href='https://kisaan-setu-f.vercel.app/login' style='color: blue; text-decoration: underline;'>Login</a> in the navigation bar. "
         "From there, select 'Don’t have an account? Sign Up' and fill in your name, email, and password to explore our AI-powered tools and services!"
     ),
     "Why use AI in agriculture?": (
@@ -157,7 +157,7 @@ premade_requests = {
     ),
     "How do we do it?": (
         "We use machine learning models to analyze data, optimize crop yields, and automate various agricultural processes. "
-        "Visit our <a href='https://agro-tech-ai.vercel.app/aboutus' style='color: blue; text-decoration: underline;'>About Us page</a> to learn more about our approach."
+        "Visit our <a href='https://kisaan-setu-f.vercel.app/aboutus' style='color: blue; text-decoration: underline;'>About Us page</a> to learn more about our approach."
     ),
     "What kind of solutions does KisaanSetu offer?": (
         "KisaanSetu offers solutions like precision farming, automated irrigation, and pest control using AI-driven analytics. "
@@ -168,7 +168,7 @@ premade_requests = {
         "Check out the navigation bar on our <a href='https://agro-tech-ai.vercel.app' style='color: blue; text-decoration: underline;'>website</a> to access all the features available."
     ),
     "How do I create an account?": (
-        "To sign up, go to the <a href='https://agro-tech-ai.vercel.app/login' style='color: blue; text-decoration: underline;'>Login</a> in the navigation bar, then select 'Don’t have an account? Sign Up.' "
+        "To sign up, go to the <a href='https://kisaan-setu-f.vercel.app/login' style='color: blue; text-decoration: underline;'>Login</a> in the navigation bar, then select 'Don’t have an account? Sign Up.' "
         "Fill in your name, email, and password, and you're done! You'll then be able to start exploring our amazing features."
     ),
     "Where can I find more information about your features?": (

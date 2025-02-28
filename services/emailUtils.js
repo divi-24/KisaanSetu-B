@@ -9,7 +9,7 @@ const sendVerificationEmail = async (email, token) => {
     },
   });
 
-  const verificationLink = `https://agro-tech-ai.vercel.app/verify-email?token=${token}`;
+  const verificationLink = `https://kisaan-setu-f.vercel.app/verify-email?token=${token}`;
 
   const mailOptions = {
     from: 'KisaanSetu',

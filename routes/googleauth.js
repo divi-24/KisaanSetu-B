@@ -8,10 +8,10 @@ router.get('/google', passport.authenticate('google', { scope: ['profile', 'emai
 // Callback URL for Google
 router.get(
   '/google/callback',
-  passport.authenticate('google', { failureRedirect: 'https://agro-tech-ai.vercel.app/login' }),
+  passport.authenticate('google', { failureRedirect: 'https://kisaan-setu-f.vercel.app/login' }),
   (req, res) => {
     // Redirect to the dashboard or home page on success
-    res.redirect('https://agro-tech-ai.vercel.app/');
+    res.redirect('https://kisaan-setu-f.vercel.app/');
   }
 );
 
@@ -22,7 +22,7 @@ router.get('/auth/logout', (req, res) => {
     }
     req.session.destroy(() => {
       res.clearCookie('connect.sid'); 
-      res.redirect('https://agro-tech-ai.vercel.app/'); 
+      res.redirect('https://kisaan-setu-f.vercel.app/'); 
     });
   });
 });
