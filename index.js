@@ -41,14 +41,17 @@ require("./services/passport");
 const geminiChatRoute = require("./routes/geminiChatRoute");
 const app = express();
 
-app.use(
-  cors({
-    origin: "https://kisaan-setu-f.vercel.app", // Replace with your frontend URL
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allow these HTTP methods
-    allowedHeaders: ["Content-Type", "Authorization"], // Allow these headers
-    credentials: true, // Allow credentials (cookies, authorization headers)
-  })
-); // This allows all origins to access your API
+const corsOptions = {
+  origin: "https://kisaan-setu-f.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With", "Accept"],
+  credentials: true,
+  preflightContinue: false,
+};
+
+// Apply CORS middleware FIRST
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions)); // Handle all OPTIONS requests
 
 app.use(
   session({
