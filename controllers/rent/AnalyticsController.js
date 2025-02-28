@@ -1,4 +1,4 @@
-const Analytics = require("../../model/rent/Analytics");
+const Analytics = require("../../model/rent/analytics.js");
 const mongoose = require("mongoose");
 
 // 1. Product Performance Analytics
